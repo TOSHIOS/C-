@@ -38,6 +38,8 @@ int main()
     system("color E0");//设置颜色
     Initialize();//初始化棋盘，数据棋盘，和缓冲器
     RunGame();//进行整个对局
+    printf("按回车键结束！");
+    getch();
     return 0;
 }
 
